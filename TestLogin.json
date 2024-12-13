@@ -1,0 +1,20 @@
+[
+    {
+        "scenario" : "Valid Login",
+        "username" : "admin",
+        "password" : "password123",
+        "outcome"  : "Success"
+    },
+    {
+        "scenario" : "Invalid Username",
+        "username" : "user",
+        "password" : "password123",
+        "outcome"  : "Fail"
+    },
+    {
+        "scenario" : "Invalid Password",
+        "username" : "admin",
+        "password" : "password1234",
+        "outcome"  : "Fail"
+    }
+]
